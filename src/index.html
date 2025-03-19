@@ -12,4 +12,10 @@
 <body>
   <app-root></app-root>
 </body>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+      let video = document.querySelector(".bannerVideo");
+      video.play().catch(error => console.log("Autoplay blocked:", error));
+  });
+</script>
 </html>
