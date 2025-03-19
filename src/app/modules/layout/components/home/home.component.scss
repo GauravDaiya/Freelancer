@@ -1,0 +1,42 @@
+.NavBarOuterDiv {
+    background-color: #00000080;
+    backdrop-filter: blur(9px);
+    position: fixed;
+    z-index: 999;
+}
+
+.logo {
+    width: 150px !important;
+}
+
+.banner {
+    position: relative;
+    border: 0.1px solid red;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.bannerLayout {
+    width: 30%;
+    border: 0.1px solid red;
+    position: absolute;
+    top: 15%;
+    left: 7%;
+    z-index: 555;
+    color: white !important;
+}
+
+.blr1 {
+    font-size: 50px;
+}
+
+.blr2>ul>li {
+    font-size: 20px;
+}
+
+.btn-primary-color {
+    background-color: var(--primary-btn-color);
+    color: inherit;
+}
