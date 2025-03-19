@@ -12,4 +12,10 @@
 <body>
   <app-root></app-root>
 <link rel="modulepreload" href="chunk-VYCTQY5K.js"><link rel="modulepreload" href="chunk-YISCFK7P.js"><script src="polyfills-FFHMD2TL.js" type="module"></script><script src="scripts-EEEIPNC3.js" defer></script><script src="main-P65BGV34.js" type="module"></script></body>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+      let video = document.querySelector(".bannerVideo");
+      video.play().catch(error => console.log("Autoplay blocked:", error));
+  });
+</script>
 </html>
