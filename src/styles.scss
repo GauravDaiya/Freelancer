@@ -27,6 +27,7 @@ $freelancer-theme: mat.define-theme((
 :root {
   @include mat.all-component-themes($freelancer-theme);
   --primary-btn-color: #C7166F;
+  --secondary-btn-color: #2B71D2;
 }
 
 // Comment out the line below if you want to use the pre-defined typography utility classes.
