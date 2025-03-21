@@ -5,3 +5,8 @@ export interface IuserRegister {
     fullName: string;
     password: string;
 }
+
+export interface IuserLogin {
+    userName: string;
+    password: string;
+}
